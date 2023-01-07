@@ -1,20 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { AuthComponent } from './auth/auth.component';
 import { NoFoundComponent } from './no-found/no-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthModule } from './auth/auth.module';
+import { PagesComponent } from './pages/pages.component';
+import { PagesModule } from './pages/pages.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NoFoundComponent
+    NoFoundComponent,
+    PagesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    PagesModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NoFoundComponent } from './no-found/no-found.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthRoutingModule } from './auth/auth-routing.module';
+import { PagesRoutingModule } from './pages/pages-routing.module';
 
 const routes :Routes =[
 
@@ -16,6 +17,7 @@ const routes :Routes =[
   imports: [
     CommonModule,
     AuthRoutingModule,
+    PagesRoutingModule,
     RouterModule.forRoot(routes)
     
   ],
