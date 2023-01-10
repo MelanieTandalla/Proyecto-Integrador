@@ -7,12 +7,14 @@ import { AuthModule } from './auth/auth.module';
 import { PagesComponent } from './pages/pages.component';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
+import { RegisterDatesComponent } from './Medical-Dates/register-dates/register-dates.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NoFoundComponent,
     PagesComponent,
+    RegisterDatesComponent,
   ],
   imports: [
     BrowserModule,

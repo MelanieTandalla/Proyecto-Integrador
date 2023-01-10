@@ -1,6 +1,6 @@
-*
+
 .todo{
-  background-image: url('/assets/images/fondofinal.jpeg');
+  background-image: url('/assets/images0.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -9,14 +9,19 @@
 
 
 .form-registro {
-  width: 400px;
-  background: #759fc9;
+  width: 450px;
+  background: #0c83f1;
   padding: 30px;
-  margin: auto;
+  margin-left:800px;
   border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(243, 243, 243);
   box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registro input{
+  width: 325px;
   text-align: center;
 }
 
@@ -27,14 +32,14 @@
 
 .controls {
   width: 100%;
-  background: #83909e;
+  background: #dedfe0;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid #1f53c5;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: rgb(17, 17, 17);
+  color: rgb(37, 35, 35);
 }
 
 .form-registro p {

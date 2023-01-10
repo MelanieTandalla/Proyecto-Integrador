@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="register.component.css">
-    <title>FORMULARIO REGISTRO</title>
+    <title>REGISTRO</title>
 </head>
 <body class="todo">
     <section class="form-registro">
-        <h1>FORMULARIO REGISTRO</h1>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese sus Nombres">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
-        <input class="controls" type="text" name="numero de cedula" id="numero de cedula" placeholder="Ingrese el Numero de Cedula">
-        <input class="controls" type="text" name="fechas de nacimineto" id="fecha de nacimiento" placeholder="Ingrese su Fecha de Nacimiento">
-        <input class="controls" type="text" name="edad" id="edad" placeholder="Ingrese su Edad">
-        <input class="controls" type="text" name="genero" id="genero" placeholder="Ingrese su Genero">
-        <input class="controls" type="text" name="e-mail" id="e-mail" placeholder="Ingrese su e-mail">
-        <input class="controls" type="text" name="contraseña" id="contraseña" placeholder="Ingrese una Contraseña">
-        <input class="controls" type="text" name="alergia a algun medicamento" id="alergia a algun medicamento" placeholder="Ingrese si tiene alergia a algun medicamento">
+        <h1>REGISTRO</h1>
+        <div class="label">
+            <label for="Nombre">Nombre:</label><br>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombres"><br>
+        </div>
+        <label for="Nombre">Apellido:</label><br>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos"><br>
+        <label for="Nombre">Cedula:</label> <br>
+        <input class="controls" type="text" name="cedula" id="cedula" placeholder="Cedula"><br>
+        <label for="Nombre">Fecha de nacimiento:</label><br>
+        <input class="controls" type="date" name="fechas de nacimineto" id="fecha de nacimiento" placeholder="Fecha de Nacimiento"><br>
+        <label for="Nombre">Genero:</label><br>
+        <input class="controls" type="text" name="genero" id="genero" placeholder="Genero"><br>
+        <label for="Nombre">Contraseña:</label><br>
+        <input class="controls" type="text" name="contraseña" id="contraseña" placeholder="Ingrese una Contraseña"><br>
+        <label for="Nombre">Repita Contraseña:</label><br>
+        <input class="controls" type="text" name="Repita contraseña" id="Repita contraseña" placeholder="Repita contraseña"><br>
         <p>Estoy de acuerdo con <a href="#"> Terminos y Condiciones</a></p>
         <input class="botons" type="submit" value="Registrar">
         <p><a href="/login">¿Ya tengo Cuenta?</a></p>
