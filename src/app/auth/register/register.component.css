@@ -1,38 +1,35 @@
 
-.todo{
-  background-image: url('/assets/images0.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-
 .form-registro {
-  width: 450px;
-  background: #0c83f1;
+  width: 600px;
+  background: #f2f2f27d;
   padding: 30px;
-  margin-left:800px;
-  border-radius: 4px;
+  margin-left: 400px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(243, 243, 243);
-  box-shadow: 7px 13px 37px #000;
-
+  border-radius: 10px;
+  border: #011d256e solid 1px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .form-registro input{
   width: 325px;
+  height: 15px;
   text-align: center;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
 .form-registro h1 {
-  font-size: 22px;
+  font-size: 40px;
   margin-bottom: 20px;
+  margin-top: 3px;
+  color: black;
+
 }
 
 .controls {
   width: 100%;
-  background: #dedfe0;
+  background: #ffffffbe;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -50,21 +47,53 @@
 } 
 
 .form-registro a{
-  color: white;
+  color: rgb(197, 93, 93);
   text-decoration: none;
 }
 
 .form-registro a:hover{
-  color: white;
+  color: rgb(216, 104, 104);
   text-decoration: underline;
 }
 
 .form-registro .botons{
-  width: 100%;
-  background:  #1f53c5;
+  width: 45%;
+  height: 25%;
+  background:  #011d25;
   border: none;
   padding: 15px;
   color: white;
-  margin: 16px 0;
-  font-size: 16px;
+  margin: 0 0 0 5px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-registro .boton{
+  width: 45%;
+  height: 25%;
+  background:  #adafafd3;
+  border: none;
+  padding: 15px;
+  color: white;
+  margin: 0 0 0 40px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nombre{
+  width: 10px;
+}
+
+.condiciones{
+  color: black;
+}
+
+.condiciones a{
+  color: black;
+}
+
+.p a{
+  color: black;
 }
