@@ -13,9 +13,27 @@
         <label for="Cedula">Ingrese su numero de Cedula<input id="first-name" name="first-name" type="text" required /></label>
         <label for="Nombre">Ingrese su nombre: <input id="last-name" name="last-name" type="text" required /></label>
         <label for="Apellidos">Ingrese su apellido: <input id="email" name="email" type="email" required /></label>
-        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="referrer">Escoja la especialidad de la cita medica
+            <select id="referrer" name="referrer">
+              <option value="5">Odontologia</option>
+              <option value="1">Ginecologica</option>
+              <option value="2">Medicina General</option>
+              <option value="3">Medicina interna</option>
+              <option value="4">Psicologia</option>
+            </select>
+          </label>
+          <label for="referrer">Escoja el horario de la cita medica
+            <select id="referrer" name="referrer">
+              <option value="5">Odontologia</option>
+              <option value="1">Ginecologica</option>
+              <option value="2">Medicina General</option>
+              <option value="3">Medicina interna</option>
+              <option value="4">Psicologia</option>
+            </select>
+          </label>
       </fieldset>
-      <fieldset>
+      
+      <!---<fieldset>
         <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
         <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
         <label for="terms-and-conditions">
@@ -37,7 +55,9 @@
         <label for="bio">Provide a bio:
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
-      </fieldset>
+      </fieldset>-->
+      <label class="usuario"> FECHA DE NACIMIENTO</label>
+                <input type="date" name="txtusuario" class="main__input">
       <input type="submit" value="Submit" />
     </form>
   </body>
