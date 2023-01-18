@@ -17,6 +17,8 @@ const routes: Routes = [
       { path: 'cita', component: CitaMedicaComponent },
       { path: 'historia', component: HistoriaClinicaComponent },
       {path:'',redirectTo:'/dashboard',pathMatch:'full'},
+
+      
     ]
   }
   //{path:'**',component:NoFoundComponent},
